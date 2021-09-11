@@ -34216,7 +34216,7 @@ a.u-link.u-text-hover-grey-90:hover {
   font-size: 1rem;
   letter-spacing: 0px;
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .u-header .u-nav-2 {
@@ -34241,12 +34241,35 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 991px) {
+  .u-header .u-sheet-1 {
+    min-height: 145px;
+  }
+
+  .u-header .u-menu-1 {
+    margin-top: 14px;
+  }
+
   .u-header .u-btn-1 {
     margin-top: 20px;
     margin-right: 0;
   }
-}
 
+  .u-header .u-text-1 {
+    width: auto;
+    margin: -68px 153px -35px 179px;
+  }
+}
+@media (max-width: 767px) {
+  .u-header .u-sheet-1 {
+    min-height: 290px;
+  }
+
+  .u-header .u-text-1 {
+    margin-top: -68px;
+    margin-right: 75px;
+    margin-left: 89px;
+  }
+}
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
     min-height: 183px;
@@ -34254,15 +34277,14 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-menu-1 {
     width: auto;
-    margin-top: 72px;
+    margin-top: 101px;
     margin-right: -9px;
   }
 
   .u-header .u-text-1 {
-    width: auto;
+    width: 246px;
     font-weight: 700;
-    margin-top: -47px;
-    margin-right: auto;
+    margin: -53px auto 37px;
   }
 }
 .u-footer {
@@ -34270,45 +34292,72 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-sheet-1 {
-  min-height: 142px;
+  min-height: 133px;
 }
 
 .u-footer .u-text-1 {
   width: 417px;
-  margin: 49px auto;
+  margin: 49px auto 60px;
 }
 
 .u-footer .u-btn-1 {
   background-image: none;
   font-size: 0.875rem;
 }
+
+.u-footer .u-text-2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  letter-spacing: normal;
+  margin: 20px 437px 60px 402px;
+}
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
-    min-height: 99px;
+    min-height: 103px;
+  }
+
+  .u-footer .u-text-1 {
+    margin-bottom: 10px;
+  }
+
+  .u-footer .u-text-2 {
+    margin-right: 337px;
+    margin-left: 302px;
   }
 }
 @media (max-width: 991px) {
-  .u-footer .u-sheet-1 {
-    min-height: 76px;
+  .u-footer .u-text-2 {
+    margin-right: 227px;
+    margin-left: 192px;
   }
 }
 @media (max-width: 767px) {
-  .u-footer .u-sheet-1 {
-    min-height: 57px;
-  }
-
   .u-footer .u-btn-1 {
     font-size: 1.125rem;
     padding: 0;
   }
+
+  .u-footer .u-text-2 {
+    margin-right: 137px;
+    margin-left: 102px;
+  }
 }
 @media (max-width: 575px) {
   .u-footer .u-sheet-1 {
-    min-height: 36px;
+    min-height: 132px;
   }
 
   .u-footer .u-text-1 {
     width: 340px;
+    margin-top: 34px;
+  }
+
+  .u-footer .u-text-2 {
+    font-family: "Aguafina Script";
+    font-size: 1.25rem;
+    width: auto;
+    letter-spacing: 2px;
+    margin: 0 20px 10px;
   }
 }
 
